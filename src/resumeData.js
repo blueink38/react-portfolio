@@ -1,9 +1,9 @@
 let resumeData = {
   "imagebaseurl":"https://rbhatia46.github.io/",
-  "name": "Cory Neel",
-  "role": "foodie. travel enthusiast. aspiring web developer.",
-  "linkedinId":"https://www.linkedin.com/in/cory-neel-0bb1a01b9/",
-  "emailId": "corycneel@gmail.com",
+  "name": "Jason Fletcher",
+  "role": "partner in crime, knower of stuff, laugher at things",
+  "linkedinId":"https://www.linkedin.com/in/jason-fletcher-024105b//",
+  "emailId": "blueink38@yahoo.com",
   "roleDescription": "",
   "socialLinks":[
       {
