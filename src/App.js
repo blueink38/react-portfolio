@@ -1,5 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import Header from './components/Header';
 import Body from './components/Body';
 import Footer from './components/Footer';
@@ -19,7 +21,12 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Router>
+        <Navbar />
+          <Switch>
+            <Route path='/' exact />
+          </Switch>
+      </Router>
     </div>
   );
 }
