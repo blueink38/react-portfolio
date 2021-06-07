@@ -1,89 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
-
-body {
-  font-family: "Koho";
-}
-
-:root {
-  --primary-white: #fff;
-}
-
-/* header {
-  padding: 20px 35px;
-  background-color: var(--secondary-color);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  top: 0;   
-  background-image: url("../images/flipped-hero-image.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
-  z-index: 9999;
-  }
-
-
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: var(--tertiary-color);
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-header a {
-  text-decoration: none;
-  color: var(--tertiary-color);
-}
-
-header nav {
+.home,
+.services,
+.products,
+.sign-up {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  height: 90vh;
   align-items: center;
-  list-style: none;    }
-
-header nav ul li {
-  display: inline;
+  justify-content: center;
+  font-size: 3rem;
 }
 
-header nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-} */
-
-
-
-
-nav a.nav-link {
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.0375rem;
-  cursor: pointer;
+.services {
+  /* background-image: url('/images/img-2.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-nav ul li {
-  text-transform: uppercase;
-  font-family: 'KoHo', sans-serif;
+.products {
+  /* background-image: url('/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-.a.nav-link{
-  justify-content: right !important;
+.sign-up {
+  /* background-image: url('/images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
-
-.navbar-nav > li > a {
-  justify-content: right;
-  color: var(--primary-white) !important;
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-
-.navbar-brand {
-  color: var(--primary-white);
-  font-size: 4rem;
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
-}
-
