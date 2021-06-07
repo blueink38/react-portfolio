@@ -68,12 +68,12 @@ nav ul li {
   font-family: 'KoHo', sans-serif;
 }
 
-/* .a.nav-link{
+.a.nav-link{
   justify-content: right !important;
-} */
+}
 
 .navbar-nav > li > a {
-  justify-content: right !important;
+  justify-content: right;
   color: var(--primary-white) !important;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
